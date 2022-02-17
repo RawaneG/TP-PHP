@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+*
+{
+    font-family: 'Poppins';
+}
+table,tr,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table
+{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}

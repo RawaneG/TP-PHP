@@ -1,0 +1,30 @@
+[
+    {
+        "prenom": "Rawane",
+        "nom": "Sow",
+        "email": "Rawane@rawane.man",
+        "password": "passer",
+        "status": "admin"
+    },
+    {
+        "prenom": "JJ",
+        "nom": "DOe",
+        "email": "john@gmail.com",
+        "password": "rawane10",
+        "status": "admin"
+    },
+    {
+        "prenom": "Jiren",
+        "nom": "eren",
+        "email": "rawane.meissa@gmail.com",
+        "password": "rawane10",
+        "status": "visiteur"
+    },
+    {
+        "prenom": "Meissa",
+        "nom": "Sow",
+        "email": "Rawane@rawane.can",
+        "password": "rawane10",
+        "status": "visiteur"
+    }
+]

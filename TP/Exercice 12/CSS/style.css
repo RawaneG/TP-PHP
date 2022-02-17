@@ -1,0 +1,73 @@
+*
+{
+    font-size: 1.05em;
+}
+body
+{
+    background-image: url('../ecran.jpg');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-attachment: fixed;
+
+}
+.second
+{
+    display: flex;
+    justify-content: space-around;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(21, 44, 105);
+    display: block;
+    padding: 1%;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}   
+a:hover
+{
+    opacity: 0.6;
+}
+.message
+{
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label
+{
+    display: block;
+    text-align: center;
+}
+select,input[type='submit']
+{
+    display: block;
+    margin: 2% auto 0 auto;
+}
+input[type='submit']
+{
+    cursor: pointer;
+}
+table,td,tr
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table
+{
+    width: 50%;
+    background-color: rgb(66, 1, 128);
+    color: white;
+}
+td
+{
+    padding: 2%;
+}

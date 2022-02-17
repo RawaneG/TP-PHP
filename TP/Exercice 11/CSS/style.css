@@ -1,0 +1,68 @@
+*
+{
+    font-size: 1.05em;
+}
+body
+{
+    background-image: url('../ecran.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second
+{
+    display: flex;
+    justify-content: space-around;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(21, 44, 105);
+    display: block;
+    padding: 1%;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}   
+a:hover
+{
+    opacity: 0.6;
+}
+.message
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+label
+{
+    display: block;
+}
+input
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+input[type='submit']
+{
+    margin-top: 2%;
+    cursor: pointer;
+}
+table,td,th
+{
+    border-collapse: collapse;  
+}
+td
+{
+    display: block;
+    text-align: center; 
+    background-color: rgb(58, 15, 126);
+    color: white;
+    padding: 10px;
+}
